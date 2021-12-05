@@ -19,7 +19,7 @@ This was a bootcamp challenge project. We were given front end starter code, and
 Access the site on heroku. It's use is simple and self explanitory. Possibly clone the repo, and deploy your own version for personal use.
 
 ## Usage <a name="usage"></a>
-see link below
+see link below <//br>
 [Deployed application](https://tranquil-temple-56943.herokuapp.com)
 
 ![screenshot of webpage ](./db/images/screenshot.png)
