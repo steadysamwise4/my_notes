@@ -4,9 +4,6 @@ const fs = require('fs');
 const notesArray = [];
 const db = require('./db/db.json');
 
-// Helper method for generating unique ids
-// const uuid = require('./helpers/uuid');
-
 const htmlRoutes = require('./Routes/html');
 // const apiRoutes = require('./Routes/api');
 const PORT = process.env.PORT || 3001;
@@ -23,7 +20,6 @@ app.use(htmlRoutes);
 
 app.get('/api/notes', (req, res) => {
     const notesArray = JSON.parse(fs.readFileSync(path.join(__dirname, './db/db.json')));
-    console.log(notesArray);
     res.send(notesArray);
 });
 
