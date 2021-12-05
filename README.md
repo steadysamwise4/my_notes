@@ -23,7 +23,7 @@ Access the site on heroku. It's use is simple and self explanitory. Possibly clo
 see link below </br>
 [Deployed application](https://tranquil-temple-56943.herokuapp.com)
 
-![screenshot of webpage](./images/screenshot.png)
+<img src="./images/screenshot.png" width="600px">
 
 ## License <a name="license"></a>
 [ISC](./docs/license.txt)
